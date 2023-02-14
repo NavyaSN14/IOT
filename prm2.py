@@ -1,4 +1,4 @@
-#2.Get input from 2 switeches and switch on corresponding LEDs
+2.Get input from 2 switeches and switch on corresponding LEDs
 
 import time
 import RPi.GPIO as gpio
