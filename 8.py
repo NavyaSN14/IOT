@@ -1,3 +1,5 @@
+8.Get the status of a bulb at a remote place (on the LAN) through web.
+
 import RPi.GPIO as gpio
 import time
 import datetime
