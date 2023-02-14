@@ -10,8 +10,6 @@ gpio.setwarnings(False)
 gpio.setup(led,gpio.OUT,initial=0)
 gpio.setup(led,gpio.OUT)
 
-
-
 from flask import Flask,render_template
 app=Flask(__name__)
 
@@ -54,19 +52,6 @@ def redledoff():
 	}
 	return render_template('light_status.html',**templateData)
 		
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 gpio.add_event_detect(switch1,gpio.RISING,callback = glow_led,bouncetime = 1)
 gpio.add_event_detect(switch2,gpio.RISING,callback = glow_led,bouncetime = 1)
