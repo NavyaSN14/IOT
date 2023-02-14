@@ -1,3 +1,5 @@
+5.Access an image through a Pi web cam
+
 from picamera import PiCamera
 from time import sleep
 import datetime
