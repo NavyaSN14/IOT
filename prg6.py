@@ -1,3 +1,5 @@
+6.Control a light source using web page.
+
 import RPi.GPIO as gpio
 import time
 import datetime
