@@ -1,3 +1,5 @@
+3.Flash an LED at a given on time and off time cycle, where the two times are taken from a file.
+
 import RPi.GPIO as gpio
 import time
 
