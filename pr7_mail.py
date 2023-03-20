@@ -1,3 +1,4 @@
+#7.Implement an intruder system that sends an alert to the given email.
 import RPi.GPIO as gpio
 import picamera 
 import time
