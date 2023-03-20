@@ -1,3 +1,4 @@
+#2.Get input from two switches and switch on corresponding LEDs
 import time
 import RPi.GPIO as gpio
 gpio.setmode(gpio.BOARD)
